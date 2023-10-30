@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/816/236/951/dark-blue-3d-wallpaper-preview.jpg);
+}
+
+.princi {
+    margin-top: 100px;
+    color: yellowgreen;
+
+}
+
+.pri1 {
+    margin-top: 0px;
+    color: deepskyblue;
+}
+
+.pri2 {
+    margin-top: 0px;
+    color: deepskyblue;
+}
+
+.cuadro {
+    border-color: cadetblue;
+    color: yellowgreen;
+    width: 50px;
+}
+
+.contenedor1 {
+    margin: 10px;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.contenedor2 {
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.ecuacion {
+    margin: 10px 0;
+}
+
+input {
+    width: 50px;
+    margin: 0 5px;
+    background-color: black;
+}
+
+button {
+    margin: 20px;
+    padding: 5px 10px;
+    background-color: black;
+    color: yellowgreen;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: yellow;
+}
+
+#result2x2 {
+    color: yellow
+}
+
+#result3x3 {
+    color: yellow
+}

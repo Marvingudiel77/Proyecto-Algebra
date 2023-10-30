@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(https://img.freepik.com/fotos-premium/mesa-madera-vacia-sobre-fondo-pared-textura-vintage-oscuro-foto-premium_78502-326.jpg);
+    background-size: cover;
+}
+
+h1 {
+    color: yellowgreen;
+}
+
+.calculadora {
+    background-image: url(https://us.123rf.com/450wm/regenerationxl/regenerationxl1701/regenerationxl170100278/68620051-fondo-de-madera-oscura-foto-tomada-de-una-superficie-y-editado-en-un-fondo-oscuro-y-sombr%C3%ADo-%C3%BAtil.jpg);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.ecuaciones textarea {
+    color: yellowgreen;
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+    border-color: black;
+    background-image: url(https://us.123rf.com/450wm/regenerationxl/regenerationxl1701/regenerationxl170100278/68620051-fondo-de-madera-oscura-foto-tomada-de-una-superficie-y-editado-en-un-fondo-oscuro-y-sombr%C3%ADo-%C3%BAtil.jpg);
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: 10px;
+    border-color: gray;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.resultado {
+    margin-top: 20px;
+    color: greenyellow;
+    font-size: 20px;
+}
+
+.resultado p {
+    font-weight: bold;
+    font-size: 18px;
+}

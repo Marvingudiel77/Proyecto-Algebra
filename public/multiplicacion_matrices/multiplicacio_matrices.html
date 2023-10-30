@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Multiplicación de Matrices</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 class="principal">Calculadora de Multiplicación de Matrices</h1>
+
+    <div class="matrices-container">
+        <div class="ingreso_matriz">
+            <h2 class="titulo">Ingresa la primera matriz:</h2>
+            <textarea id="matriz1" rows="5" cols="5"></textarea>
+        </div>
+
+        <div class="ingreso_matriz">
+            <h2 class="titulo">Ingresa la segunda matriz:</h2>
+            <textarea id="matriz2" rows="5" cols="3"></textarea>
+        </div>
+    </div>
+
+    <button onclick="multiMatrices()">Multiplicar Matrices</button>
+
+    <div id="result"></div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

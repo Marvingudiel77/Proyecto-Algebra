@@ -1,0 +1,47 @@
+body {
+    background-image: url(https://traptoreditorial.com/wp-content/uploads/2016/04/fondo-minimalista-negro-minimalist-background-fondo-sitio-web-minimalista-fondo-negro-web.jpg);
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 32px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+}
+
+input {
+    padding: 5px;
+    background-color: black;
+    color: yellow;
+    border-color: aquamarine;
+}
+
+button {
+    padding: 10px;
+    background-color: black;
+    margin-top: 20px;
+    color: aqua;
+    border: none;
+    cursor: pointer;
+}
+
+/* Establece el fondo del canvas en negro */
+#grafico {
+    margin-top: 30px;
+    background-color: black;
+    border-color: aqua;
+}

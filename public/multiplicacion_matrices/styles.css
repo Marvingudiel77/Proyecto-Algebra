@@ -1,0 +1,58 @@
+.principal {
+    margin-top: 80px;
+    color: yellowgreen;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.titulo {
+    color: dodgerblue
+}
+
+body {
+    text-align: center;
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-hexagonal-oscuro-color-degradado_79603-1409.jpg);
+    background-size: cover;
+}
+
+.ingreso_matriz {
+    display: block;
+    margin: 80px;
+}
+
+
+#matriz1 {
+    color: red;
+    border-color: blue;
+}
+
+#matriz2 {
+    color: red;
+    border-color: blue;
+}
+
+.ingreso_matriz {
+    display: inline-block;
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: black;
+    color: yellow;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+}
+
+#result {
+    color: dodgerblue;
+}
+
+textarea {
+    width: 70%;
+    background-color: black;
+}

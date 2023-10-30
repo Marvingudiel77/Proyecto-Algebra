@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Graficas</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="grafica.css">
+</head>
+
+<body>
+    <div id="container">
+        <h1 style="margin-top: 70px;">Graficas De Ecuaciones</h1>
+        <p style="margin-top: 5px;">Ingresa los puntos en formato (x, y), (x, y)</p>
+        <input type="text" id="punto1" placeholder="solucion X (Azul)">
+        <input type="text" id="punto2" placeholder="solucion Y (Amarillo)">
+        <button onclick="graficarLineas()">Graficar soluciones</button>
+        <div style="width: 400px; height: 400px;">
+            <canvas id="grafico"></canvas>
+        </div>
+    </div>
+    <script src="gf.js"></script>
+</body>
+
+</html>

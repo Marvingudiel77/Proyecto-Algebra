@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuQqFjNrLGRlQJBSz78tXCp3uZy_d3c--Rmw&usqp=CAU);
+    background-size: contain;
+}
+
+
+.contenedor {
+    width: 300px;
+    margin-top: 125px;
+    margin-left: 380px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+input,
+button {
+    margin: 10px 0;
+    background-color: black;
+    color: deepskyblue;
+    border-color: aquamarine;
+}

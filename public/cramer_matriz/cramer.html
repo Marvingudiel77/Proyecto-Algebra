@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Ecuaciones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 class="princi">Calculadora de Ecuaciones</h1>
+    <div class="contenedor1">
+        <h2 class="pri1">Ecuaciones 2x2</h2>
+        <div class="ecuacion">
+            <input class="cuadro" type="number" id="a11" placeholder="x1">
+            <input class="cuadro" type="number" id="a12" placeholder="x2">
+            <input class="cuadro" type="number" id="b1" placeholder="R">
+        </div>
+        <div class="ecuacion">
+            <input class="cuadro" type="number" id="a21" placeholder="x1">
+            <input class="cuadro" type="number" id="a22" placeholder="x2">
+            <input class="cuadro" type="number" id="b2" placeholder="R">
+        </div>
+        <button onclick="matriz2x2()">Calcular</button>
+        <div id="result2x2"></div>
+    </div>
+
+    <div class="contenedor2">
+        <h2 class="pri2">Ecuaciones 3x3</h2>
+        <div class="ecuacion">
+            <input class="cuadro" type="number" id="a31" placeholder="x1">
+            <input class="cuadro" type="number" id="a32" placeholder="x2">
+            <input class="cuadro" type="number" id="a33" placeholder="x3">
+            <input class="cuadro" type="number" id="b3" placeholder="R">
+        </div>
+        <div class="ecuacion">
+            <input class="cuadro" type="number" id="a41" placeholder="x1">
+            <input class="cuadro" type="number" id="a42" placeholder="x2">
+            <input class="cuadro" type="number" id="a43" placeholder="x3">
+            <input class="cuadro" type="number" id="b4" placeholder="R">
+        </div>
+        <div class="ecuacion">
+            <input class="cuadro" type="number" id="a51" placeholder="x1">
+            <input class="cuadro" type="number" id="a52" placeholder="x2">
+            <input class="cuadro" type="number" id="a53" placeholder="x3">
+            <input class="cuadro" type="number" id="b5" placeholder="R">
+        </div>
+        <button onclick="matriz3x3()">Calcular</button>
+        <div id="result3x3"></div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
